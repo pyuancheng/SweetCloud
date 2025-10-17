@@ -9,6 +9,7 @@ import com.github.wxiaoqi.security.auth.common.util.jwt.IJWTInfo;
 public class ClientInfo implements IJWTInfo {
     String clientId;
     String name;
+    String ip;
 
     public ClientInfo(String clientId, String name, String id) {
         this.clientId = clientId;
